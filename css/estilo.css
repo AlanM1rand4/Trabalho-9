@@ -1,6 +1,5 @@
 body {
   background-color: lightgray;
-  /* font-family: Poppins; */
 }
 .button {
   color: #FFF;
@@ -40,6 +39,9 @@ header{
   height: 250px;
   width: 742px;
 }
+.cabeçalho p{
+  margin: 0px;
+}
 .menu{
   background-color: rgb(82,82,82);
   display: flex;
@@ -49,6 +51,9 @@ header{
   height: 250px;
   width: 371px;
 }
+.menu p{
+  margin: 0px;
+}
 .artigo1{
   display: flex;
   justify-content: flex-start; 
@@ -57,14 +62,19 @@ header{
   height: 250px;
   width: 371px;
 }
+.artigo1 p{
+  margin: 0px;
+}
 .artigo2{
-  position: relative;
   display: flex;
   justify-content: flex-start; 
   align-items: flex-start;
   background-color: rgb(133, 132, 132);
   height: 250px;
   width: 371px;
+}
+.artigo2 p{
+  margin: 0px;
 }
 .rodape{
   background-color: rgb(46,46,46);
@@ -74,6 +84,101 @@ header{
   height: 250px;
   width: 100%;
 }
+.rodape p{
+  margin: 0px;
+}
 
+/* Xadrez */
 
+.margem2{
+  background-color: white;
+  width: 800px;
+  height: 800px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.centralizado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.peça1{
+  background-color: #242424;
+  margin-left: 0px;
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+.peça2{
+  background-color: #242424;
+  width: 100px;
+  height: 100px;
+}
+
+/*Nomes em inglês*/
+
+.margem3{
+  background-color: white;
+  width: 1200px;
+  height: 600px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.header{
+  padding: 0%;
+  background-color: #444444;
+  width: 100%;
+  height: 120px;
+}
+.header h1{
+  margin: 0px;
+}
+.menu1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  background-color: rgb(105, 104, 104);
+  width: 300px;
+  height: 360px;
+}
+.menu1 h1{
+  margin: 0px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: gray;
+  width: 600px;
+  height: 360px;
+}
+.content h1{
+  margin: 0;
+}
+.ad{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  background-color: rgb(139, 139, 139);
+  width: 300px;
+  height: 360px;
+}
+.ad h1{
+  margin: 0px;
+}
+.footer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  background-color: #444444;
+  width: 100%;
+  height: 120px;
+}
+.footer h1{
+  margin: 0px;
+}
 
