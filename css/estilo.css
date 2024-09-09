@@ -32,7 +32,7 @@ header{
   margin-right: 100px;
 }
 .cabeçalho{
-  background-color: rgb(206, 206, 206);
+  background-color: rgb(196, 195, 195);
   display: flex;
   justify-content: flex-start; 
   align-items: flex-start;
